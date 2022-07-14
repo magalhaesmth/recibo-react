@@ -1,0 +1,18 @@
+.input_valor{
+    width: 380px;
+    height: 30px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+p{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.valor{
+    box-sizing: border-box;
+    font-size: 18px;
+    position: relative;
+}

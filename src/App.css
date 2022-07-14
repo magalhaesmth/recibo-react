@@ -1,0 +1,9 @@
+.App{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+table {
+  border-spacing: 20px;
+  border-collapse: separate;
+}

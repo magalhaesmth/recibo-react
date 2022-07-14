@@ -1,0 +1,23 @@
+#data{
+    font-size: 12px;
+    border-radius: 5px;
+    width: 380px;
+    height: 30px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+
+}
+
+.column {
+    float: left;
+    width: 22.5%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

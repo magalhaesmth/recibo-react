@@ -1,0 +1,10 @@
+#referente{
+    width: 800px;
+    height: 35px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 12px;
+    text-align: left;
+    border: 2px solid #000000;
+}

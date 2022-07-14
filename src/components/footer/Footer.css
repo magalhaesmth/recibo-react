@@ -1,0 +1,6 @@
+.Footer{
+    bottom: 0px;
+    position: fixed; /*Quando tiver conteudo, tirar isto*/
+    width: 100%;
+    text-align: center;
+}

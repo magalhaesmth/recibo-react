@@ -1,0 +1,11 @@
+#cidade{
+    font-size: 12px;
+    text-align: left;
+    width: 380px;
+    height: 30px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: initial;
+    
+}
