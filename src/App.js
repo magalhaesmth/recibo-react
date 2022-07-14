@@ -22,6 +22,7 @@ function App() {
       <form onSubmit="imprimir()" method="post" id="1">
         <Header nome="Recibo Simples" />
         <Footer/>
+        
         <label>
           <Valor/>
         </label>
@@ -63,11 +64,19 @@ function App() {
         <label>
           <DuasVias />
         </label>
+
+          <label>
+            <p>
+              <input type="hidden" name="gerarRecibo" />
+              <button type="submit" class="submit">
+                <span>Gerar Recibo</span>
+              </button>
+            </p>
+          </label>
+
      </form>
     </div>
     </body>
   )
 }
 export default App;
-
-//Não consegui fazer imprimir professor :(
